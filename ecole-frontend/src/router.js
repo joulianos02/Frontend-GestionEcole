@@ -6,6 +6,8 @@ import UserRole from './views/UserRole.vue';
 import SchoolStudent from './views/SchoolStudent.vue';
 import SchoolTeacher from './views/SchoolTeacher.vue';
 import AppUser from './views/AppUser.vue';
+import SignIn from '@/components/SignIn.vue';
+import SignUp from '@/components/SignUp.vue';
 
 const routes = [
   {
@@ -42,6 +44,16 @@ const routes = [
     path: '/app-user',
     name: 'AppUser',
     component: AppUser,
+  },
+  {
+    path: '/signin',
+    name: 'SignIn',
+    component: SignIn,
+  },
+  {
+    path: '/signup',
+    name: 'SignUp',
+    component: SignUp,
   },
 ];
 
